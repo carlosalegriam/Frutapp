@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  text-align: center;
+}
+
+#logo {
+  align-items: center;
+  width: 100px;
+}
+h1 {
+  color: #E96479;
+  font-family: 'Lilita One', cursive;
+  font-size: 48px;
+  margin: 0px;
+}
+
+h2 {
+  color: #4D455D;
+  font-family: Arial;
+  font-size: auto;
+  text-align: center;
+}
+
+#imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+}
+
+section {
+  text-align: center;
+}
+
+.boton {
+  background-color: #7DB9B6 ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-color: #4D455D;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.link {
+  color: #4D455D;
+  font-family: Arial;
+  font-size: auto;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #FFC107; 
+}
+
+a:visited {
+  color: #E96479;
+}
+
+/* Mi codigo de estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+  #imagen {
+    width: 80%;
+  }
+  .boton {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
