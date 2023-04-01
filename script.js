@@ -1,9 +1,4 @@
-function comprar() {
-  alert("Gracias por preferirnos");
-}
-
-var compra = document.getElementsByClassName("link")[0];
-
-acerca.addEventListener("click", function() {
-  comprar();
-});
+var shop = document.getElementById("compra");
+shop.addEventListener("click", function(){
+  prompt("¿Qué sabor de paleta desea ordenar?");
+})
